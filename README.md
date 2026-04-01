@@ -18,12 +18,13 @@ A JavaScript-based web app that allows users to search movies and view their det
 
 | Concept | Usage |
 |----------|--------|
-| **IIFE** | Used for app initialization to prevent global pollution |
+| **IIFE** | Used to Encapsulate logic  |
 | **map(), filter()** | Used for data display and filtering movies |
 | **DOM Manipulation** | Dynamically created movie cards and results |
 | **Event Handling** | Search button and input field actions |
 | **Promises & Async/Await** | Fetch API integration |
 | **OMDb API** | Used to fetch movie data |
+| **TMDb API** | Used to discover movies |
 
 ---
 
