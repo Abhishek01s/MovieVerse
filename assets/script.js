@@ -367,7 +367,7 @@ function changeActive(){
     .then(json => {console.log(json.results)
       for(let data of json.results){
         genreBox.insertAdjacentHTML("beforeend", 
-          `<div class="slide">
+          `<div class="slide clickable-movie" data-movie-id="${data.id}">
             <div class="img-cont" style="background-image: url('https://image.tmdb.org/t/p/w500${data.poster_path}')">
             </div>
             <div class="text-cont">
@@ -384,7 +384,7 @@ function changeActive(){
     .then(json => {console.log(json.results)
       for(let data of json.results){
         genreBox.insertAdjacentHTML("beforeend", 
-          `<div class="slide">
+          `<div class="slide clickable-movie" data-movie-id="${data.id}">
             <div class="img-cont" style="background-image: url('https://image.tmdb.org/t/p/w500${data.poster_path}')">
             </div>
             <div class="text-cont">
