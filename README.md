@@ -6,7 +6,7 @@ A JavaScript-based web app that allows users to search movies and view their det
 
 ## 🚀 Features
 
-✅ Search for any movie using the OMDb API  
+✅ Search for any movie using the OMDb & TMDb API  
 ✅ View movie posters, year, and basic details  
 ✅ Full DOM manipulation using vanilla JS  
 ✅ Implemented with Promises, async/await, and error handling   
