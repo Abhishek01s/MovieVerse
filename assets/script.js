@@ -69,7 +69,7 @@ function convertMinutesToHMS(minutes) {
     const year = getYear(Top_movieData.results[i].release_date);
     const Runtime= await getRuntime(Top_movieData.results[i].id);
     const rating= await getIMBD(Top_movieData.results[i].title);
-    top_movieInfo.innerText = `${year} • ${convertMinutesToHMS(Runtime)} • ${rating}⭐`;
+    top_movieInfo.innerHTML = `<span>${year} • ${convertMinutesToHMS(Runtime)} • ${rating}<i class="bx bxs-star"></i></span>`;
     let currB = document.querySelector(`.slide${i+1} .text-cont`)
     let j = 0;
     for (let id of Top_movieData.results[i].genre_ids){
